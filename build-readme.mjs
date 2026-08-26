@@ -303,6 +303,8 @@ function waveSvg() {
 function buildReadme(c) {
   const { user, theme: t } = c;
   const raw = `https://raw.githubusercontent.com/${user}/${user}/main/assets`;
+  // Gmail compose - بيفتح في المتصفح، مش محتاج برنامج بريد على جهاز الزائر
+  const mailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(c.email)}`;
   const q = `hide_border=true&bg_color=${t.bg}&title_color=${t.title}&text_color=${t.text}&icon_color=${t.icon}`;
 
   const stack = Object.entries(c.stack).map(([label, icons]) => `
@@ -401,10 +403,10 @@ const kareem = {
 
 <p align="center">
   <a href="${c.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:${c.email}"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="${mailUrl}"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p align="center"><sub><a href="mailto:${c.email}">${c.email}</a></sub></p>
+<p align="center"><sub><a href="${mailUrl}">${c.email}</a></sub></p>
 
 <p align="center">
   <img src="${raw}/wave.svg" alt="" width="100%">
