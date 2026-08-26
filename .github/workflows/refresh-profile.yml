@@ -1,0 +1,42 @@
+name: Refresh profile
+
+# بيعيد توليد كروت الإحصائيات من GitHub API كل يوم،
+# وبيعمل commit بس لو فيه حاجة اتغيّرت فعلاً.
+on:
+  schedule:
+    - cron: "17 4 * * *"      # كل يوم 4:17 صباحاً UTC
+  workflow_dispatch:           # أو تشغّله بإيدك من تبويب Actions
+  push:
+    paths:
+      - "build-readme.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate assets and README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node build-readme.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md assets
+            git commit -m "chore: refresh profile stats"
+            git push
+            echo "تم التحديث."
+          else
+            echo "مفيش تغيير."
+          fi
