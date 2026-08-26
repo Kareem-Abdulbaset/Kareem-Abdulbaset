@@ -127,10 +127,10 @@ const kareem = {
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kareem-abdulbaset-763294352/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:kareemabdulbaset.dev@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kareemabdulbaset.dev%40gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p align="center"><sub><a href="mailto:kareemabdulbaset.dev@gmail.com">kareemabdulbaset.dev@gmail.com</a></sub></p>
+<p align="center"><sub><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kareemabdulbaset.dev%40gmail.com">kareemabdulbaset.dev@gmail.com</a></sub></p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kareem-Abdulbaset/Kareem-Abdulbaset/main/assets/wave.svg" alt="" width="100%">
