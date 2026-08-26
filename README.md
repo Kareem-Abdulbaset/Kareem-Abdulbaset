@@ -26,7 +26,7 @@
 
 I build **production-ready web applications** with modern React and Next.js, focused on **clean architecture**, **performance**, and **interfaces that feel effortless to use**. Always learning, always improving, and always shipping real projects.
 
-📍 Based in Tanta, Egypt
+📍 Based in Egypt
 
 ---
 
@@ -70,7 +70,7 @@ I build **production-ready web applications** with modern React and Next.js, foc
 
 ## 📫 Contact Me
 
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kareem-Abdulbaset) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kareem-Abdulbaset) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kareem-abdulbaset-763294352/)
 
 ---
 
