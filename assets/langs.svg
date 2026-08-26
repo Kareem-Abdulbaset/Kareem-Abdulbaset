@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 195" width="480" height="195" role="img" aria-label="Most used languages">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#131A2E"/>
+    </linearGradient>
+    <linearGradient id="lac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <clipPath id="barClip"><rect x="34" y="66" width="412" height="11" rx="5.5"/></clipPath>
+  </defs>
+  <rect width="480" height="195" rx="10" fill="url(#lbg)" stroke="#243049"/>
+  <rect x="0" y="0" width="480" height="3" rx="1.5" fill="url(#lac)"/>
+  <text x="34" y="46" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="17" font-weight="700" fill="#06B6D4">Most Used Languages</text>
+  <g clip-path="url(#barClip)"><rect x="34" y="66" width="412" height="11" fill="#1C2333"/><rect x="34.0" y="66" width="0" height="11" fill="#3178C6">
+      <animate attributeName="width" from="0" to="315.9" dur="0.9s" begin="0.00s" fill="freeze"/>
+    </rect><rect x="349.9" y="66" width="0" height="11" fill="#F1E05A">
+      <animate attributeName="width" from="0" to="52.5" dur="0.9s" begin="0.12s" fill="freeze"/>
+    </rect><rect x="402.4" y="66" width="0" height="11" fill="#563D7C">
+      <animate attributeName="width" from="0" to="34.4" dur="0.9s" begin="0.24s" fill="freeze"/>
+    </rect><rect x="436.8" y="66" width="0" height="11" fill="#E34C26">
+      <animate attributeName="width" from="0" to="6.8" dur="0.9s" begin="0.36s" fill="freeze"/>
+    </rect><rect x="443.6" y="66" width="0" height="11" fill="#FCB32C">
+      <animate attributeName="width" from="0" to="2.4" dur="0.9s" begin="0.48s" fill="freeze"/>
+    </rect></g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.50s" fill="freeze"/>
+      <circle cx="38" cy="104" r="5" fill="#3178C6"/>
+      <text x="50" y="108" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12.5" fill="#C9D1D9">TypeScript</text>
+      <text x="234" y="108" text-anchor="end" font-family="'Segoe UI',Ubuntu,sans-serif"
+            font-size="12.5" font-weight="600" fill="#8B98B0">76.7%</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.60s" fill="freeze"/>
+      <circle cx="262" cy="104" r="5" fill="#F1E05A"/>
+      <text x="274" y="108" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12.5" fill="#C9D1D9">JavaScript</text>
+      <text x="458" y="108" text-anchor="end" font-family="'Segoe UI',Ubuntu,sans-serif"
+            font-size="12.5" font-weight="600" fill="#8B98B0">12.7%</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.70s" fill="freeze"/>
+      <circle cx="38" cy="130" r="5" fill="#563D7C"/>
+      <text x="50" y="134" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12.5" fill="#C9D1D9">CSS</text>
+      <text x="234" y="134" text-anchor="end" font-family="'Segoe UI',Ubuntu,sans-serif"
+            font-size="12.5" font-weight="600" fill="#8B98B0">8.4%</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.80s" fill="freeze"/>
+      <circle cx="262" cy="130" r="5" fill="#E34C26"/>
+      <text x="274" y="134" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12.5" fill="#C9D1D9">HTML</text>
+      <text x="458" y="134" text-anchor="end" font-family="'Segoe UI',Ubuntu,sans-serif"
+            font-size="12.5" font-weight="600" fill="#8B98B0">1.6%</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/>
+      <circle cx="38" cy="156" r="5" fill="#FCB32C"/>
+      <text x="50" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12.5" fill="#C9D1D9">MDX</text>
+      <text x="234" y="160" text-anchor="end" font-family="'Segoe UI',Ubuntu,sans-serif"
+            font-size="12.5" font-weight="600" fill="#8B98B0">0.6%</text>
+    </g>
+</svg>
