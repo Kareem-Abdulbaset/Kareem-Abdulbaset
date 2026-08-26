@@ -22,6 +22,7 @@ const CONFIG = {
   tagline: "I turn ideas into fast, accessible web applications.",
   location: "Egypt",
   linkedin: "https://www.linkedin.com/in/kareem-abdulbaset-763294352/",
+  email: "kareemabdulbaset.dev@gmail.com",
 
   about: [
     "Building **production-ready web applications** with modern React and Next.js.",
@@ -400,8 +401,10 @@ const kareem = {
 
 <p align="center">
   <a href="${c.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/${user}"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="mailto:${c.email}"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
+
+<p align="center"><sub><a href="mailto:${c.email}">${c.email}</a></sub></p>
 
 <p align="center">
   <img src="${raw}/wave.svg" alt="" width="100%">
