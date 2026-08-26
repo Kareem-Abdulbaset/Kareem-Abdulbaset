@@ -1,81 +1,137 @@
 <a id="top"></a>
 
-<h1 align="center">Hi, I'm Kareem Abdulbaset</h1>
-
 <p align="center">
-  <b>Front-End Developer | React &amp; Next.js Engineer</b><br>
-  <b>TypeScript &middot; Modern Web Applications &middot; Responsive UI</b>
+  <img src="https://raw.githubusercontent.com/Kareem-Abdulbaset/Kareem-Abdulbaset/main/assets/hero.svg" alt="Kareem Abdulbaset" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kareem-Abdulbaset&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views">
+  <a href="https://github.com/Kareem-Abdulbaset?tab=followers"><img src="https://img.shields.io/github/followers/Kareem-Abdulbaset?style=for-the-badge&logo=github&logoColor=white&color=1F6FEB&labelColor=0D1117" alt="Followers"></a>
+  <img src="https://komarev.com/ghpvc/?username=Kareem-Abdulbaset&style=for-the-badge&color=8B5CF6&labelColor=0D1117&label=PROFILE+VIEWS" alt="Profile views">
+  <a href="https://www.linkedin.com/in/kareem-abdulbaset-763294352/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"></a>
 </p>
 
 <p align="center">
-  <a href="#about">About</a> &bull;
-  <a href="#tech-stack">Tech Stack</a> &bull;
-  <a href="#projects">Projects</a> &bull;
-  <a href="#contact">Contact</a>
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#stack">Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#stats">Stats</a> &nbsp;·&nbsp;
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#connect">Connect</a>
 </p>
 
 ---
 
 <a id="about"></a>
 
-## About Me 👨‍💻
+## 🧭 About
 
-I build **production-ready web applications** with modern React and Next.js, focused on **clean architecture**, **performance**, and **interfaces that feel effortless to use**. Always learning, always improving, and always shipping real projects.
+> Building **production-ready web applications** with modern React and Next.js.
+>
+> I care about **clean architecture**, **performance budgets**, and interfaces that feel effortless.
+>
+> Currently deepening my work with **Server Components**, **streaming SSR**, and **type-safe APIs**.
 
-📍 Based in Egypt
+<br>
+
+```ts
+const kareem = {
+  location : "Egypt",
+  focus    : ["React", "Next.js", "TypeScript"],
+  building : "fast, accessible, well-typed interfaces",
+  learning : ["Server Components", "Streaming SSR", "Edge runtime"],
+} as const;
+```
 
 ---
 
-<a id="tech-stack"></a>
+<a id="stack"></a>
 
-## 🛠️ Tech Stack
+## ⚡ Tech Stack
 
-### 🌐 Front-End
+<table>
+<tr>
+  <td align="right" width="120"><b>Core</b></td>
+  <td><img src="https://skillicons.dev/icons?i=ts,js,html,css&theme=dark" alt="Core"></td>
+</tr>
+<tr>
+  <td align="right" width="120"><b>Frameworks</b></td>
+  <td><img src="https://skillicons.dev/icons?i=react,nextjs,vite&theme=dark" alt="Frameworks"></td>
+</tr>
+<tr>
+  <td align="right" width="120"><b>Styling</b></td>
+  <td><img src="https://skillicons.dev/icons?i=tailwind,bootstrap,sass&theme=dark" alt="Styling"></td>
+</tr>
+<tr>
+  <td align="right" width="120"><b>Tooling</b></td>
+  <td><img src="https://skillicons.dev/icons?i=git,github,docker,npm,vscode&theme=dark" alt="Tooling"></td>
+</tr>
+</table>
 
-![React](https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+---
 
-### 🎨 Styling &amp; UI
+<a id="stats"></a>
 
-![Tailwind CSS](https://img.shields.io/badge/TAILWINDCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![Sass](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Framer Motion](https://img.shields.io/badge/FRAMER_MOTION-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+## 📊 GitHub Stats
 
-### ⚙️ Tools &amp; Workflow
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kareem-Abdulbaset/Kareem-Abdulbaset/main/assets/stats.svg" alt="GitHub stats" width="47%">
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/Kareem-Abdulbaset/Kareem-Abdulbaset/main/assets/langs.svg" alt="Most used languages" width="47%">
+</p>
 
-![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white) ![Vite](https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![npm](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-### 💻 Concepts &amp; Skills
-
-![SSR](https://img.shields.io/badge/SSR-0B7285?style=for-the-badge) ![SSG](https://img.shields.io/badge/SSG-2B8A3E?style=for-the-badge) ![Server Actions](https://img.shields.io/badge/SERVER_ACTIONS-5F3DC4?style=for-the-badge) ![REST APIs](https://img.shields.io/badge/REST_APIS-C2255C?style=for-the-badge) ![Responsive Design](https://img.shields.io/badge/RESPONSIVE_DESIGN-E8590C?style=for-the-badge) ![OOP](https://img.shields.io/badge/OOP-1864AB?style=for-the-badge) ![Data Structures](https://img.shields.io/badge/DATA_STRUCTURES-087F5B?style=for-the-badge) ![Algorithms](https://img.shields.io/badge/ALGORITHMS-A61E4D?style=for-the-badge) ![Problem Solving](https://img.shields.io/badge/PROBLEM_SOLVING-D6336C?style=for-the-badge) ![Clean Code](https://img.shields.io/badge/CLEAN_CODE-364FC7?style=for-the-badge)
+<p align="center"><sub>Generated from the GitHub API and refreshed daily by a workflow — no third-party services, nothing to break.</sub></p>
 
 ---
 
 <a id="projects"></a>
 
-## ✨ Projects
+## 🚀 Featured Projects
 
-- **[Professional Portfolio](https://github.com/Kareem-Abdulbaset/Professional-Portfolio)** – Next.js 16 &amp; React 19 with Partial Prerendering, Turbopack, Server Actions and an MDX blog
-- **[AUTH Mart](https://github.com/Kareem-Abdulbaset/AUTH-Mart-2B-Stylish-Website-Next.js-)** – E-commerce site with SSR &amp; SSG, dynamic routing and a Tailwind CSS interface
-- **[Tech Information Sharing Platform](https://github.com/Kareem-Abdulbaset/Tech-Information-Sharing-Platform)** – Social web application built with React 19 and Vite 7
-- **[Weather Forecast Application](https://github.com/Kareem-Abdulbaset/Weather-Forecast-Application)** – 3-day forecast for any city worldwide, built with JavaScript &amp; Bootstrap
-- **[Product Management System](https://github.com/Kareem-Abdulbaset/Product-Management-System)** – Fully responsive CRUD application with local storage and search
+<table>
+<tr>
+  <td width="34%" valign="top">
+    <a href="https://github.com/Kareem-Abdulbaset/Professional-Portfolio"><b>Professional Portfolio</b></a><br>
+    <sub><code>Next.js 16 · React 19 · MDX</code></sub>
+  </td>
+  <td valign="top"><sub>Next.js 16 + React 19 · Partial Prerendering, Turbopack, Server Actions, MDX blog</sub></td>
+</tr>
+<tr>
+  <td width="34%" valign="top">
+    <a href="https://github.com/Kareem-Abdulbaset/AUTH-Mart-2B-Stylish-Website-Next.js-"><b>AUTH Mart</b></a><br>
+    <sub><code>Next.js · SSR/SSG · Tailwind</code></sub>
+  </td>
+  <td valign="top"><sub>E-commerce · SSR & SSG, dynamic routing, Tailwind CSS interface</sub></td>
+</tr>
+<tr>
+  <td width="34%" valign="top">
+    <a href="https://github.com/Kareem-Abdulbaset/Tech-Information-Sharing-Platform"><b>Tech Sharing Platform</b></a><br>
+    <sub><code>React 19 · Vite 7</code></sub>
+  </td>
+  <td valign="top"><sub>Social web app · React 19 + Vite 7, responsive component architecture</sub></td>
+</tr>
+<tr>
+  <td width="34%" valign="top">
+    <a href="https://github.com/Kareem-Abdulbaset/Weather-Forecast-Application"><b>Weather Forecast</b></a><br>
+    <sub><code>JavaScript · REST API · Bootstrap</code></sub>
+  </td>
+  <td valign="top"><sub>3-day forecast for any city · JavaScript, REST API, Bootstrap</sub></td>
+</tr>
+</table>
 
-*Check my repositories for detailed implementations.*
+<p align="center"><i>More in my <a href="https://github.com/Kareem-Abdulbaset?tab=repositories">repositories</a>.</i></p>
 
 ---
 
-<a id="contact"></a>
+<a id="connect"></a>
 
-## 📫 Contact Me
-
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kareem-Abdulbaset) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kareem-abdulbaset-763294352/)
-
----
+## 🤝 Connect
 
 <p align="center">
-  <b>Always learning. Always building. 🚀</b>
+  <a href="https://www.linkedin.com/in/kareem-abdulbaset-763294352/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/Kareem-Abdulbaset"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
-[🔼 Back to Top](#top)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kareem-Abdulbaset/Kareem-Abdulbaset/main/assets/wave.svg" alt="" width="100%">
+</p>
+
+<p align="center"><sub>Always learning. Always building. 🚀 &nbsp;·&nbsp; <a href="#top">Back to top</a></sub></p>
