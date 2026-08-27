@@ -14,7 +14,7 @@
   <g clip-path="url(#barClip)"><rect x="34" y="66" width="412" height="11" fill="#1C2333"/><rect x="34.0" y="66" width="0" height="11" fill="#3178C6">
       <animate attributeName="width" from="0" to="312.7" dur="0.9s" begin="0.00s" fill="freeze"/>
     </rect><rect x="346.7" y="66" width="0" height="11" fill="#F1E05A">
-      <animate attributeName="width" from="0" to="56.1" dur="0.9s" begin="0.12s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="56.2" dur="0.9s" begin="0.12s" fill="freeze"/>
     </rect><rect x="402.8" y="66" width="0" height="11" fill="#563D7C">
       <animate attributeName="width" from="0" to="34.1" dur="0.9s" begin="0.24s" fill="freeze"/>
     </rect><rect x="436.9" y="66" width="0" height="11" fill="#E34C26">
